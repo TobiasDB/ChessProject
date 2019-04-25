@@ -1,0 +1,320 @@
+General:
+	[General] TcMbiv: [Player] (found square) The Square [4, 4] was clicked, The piece QueenB1 @ [4, 7] will be moved
+	[General] hmGVM2: [Player] (finding square) Square [4, 7] was clicked Piece QueenB1 was found, of the correct colour.
+	[General] wEvck2: [Player] (found square) The Square [4, 4] was clicked, The piece PawnW4 @ [3, 3] will be moved
+	[General] xWjWcL: [Player] (finding square) Square [3, 3] was clicked Piece PawnW4 was found, of the correct colour.
+	[General] ODGSQM: [Player] (found square) The Square [4, 4] was clicked, The piece PawnB5 @ [4, 6] will be moved
+	[General] xHEuSU: [Player] (finding square) Square [4, 6] was clicked Piece PawnB5 was found, of the correct colour.
+	[General] Qv5JKb: [Player] (found square) The Square [3, 3] was clicked, The piece PawnW4 @ [3, 1] will be moved
+	[General] MxEZnB: [Player] (finding square) Square [3, 1] was clicked Piece PawnW4 was found, of the correct colour.
+SetUp:
+	[SetUp] obL5NT: The Save Button has been created.
+	[SetUp] vnyPxo: The Piece 'KingB1', has been created.
+	[SetUp] jBecP2: The Piece 'KingW1', has been created.
+	[SetUp] JaBrl8: The Piece 'QueenB1', has been created.
+	[SetUp] E9KsnE: The Piece 'QueenW1', has been created.
+	[SetUp] u4p4rx: The Piece 'RookB2', has been created.
+	[SetUp] ZMoZkX: The Piece 'RookB1', has been created.
+	[SetUp] 1sTmAd: The Piece 'RookW2', has been created.
+	[SetUp] FZR4uf: The Piece 'RookW1', has been created.
+	[SetUp] 9K1fTG: The Piece 'BishopB2', has been created.
+	[SetUp] oE7Ujj: The Piece 'BishopB1', has been created.
+	[SetUp] pxcj86: The Piece 'BishopW2', has been created.
+	[SetUp] 28fsBT: The Piece 'BishopW1', has been created.
+	[SetUp] 6m1CnB: The Piece 'KnightB2', has been created.
+	[SetUp] 2stCG8: The Piece 'KnightB1', has been created.
+	[SetUp] JcqWxL: The Piece 'KnightW2', has been created.
+	[SetUp] ojrVWk: The Piece 'KnightW1', has been created.
+	[SetUp] frBGIJ: The Piece 'PawnB8', has been created.
+	[SetUp] 5d4c28: The Piece 'PawnB7', has been created.
+	[SetUp] ZBkKCb: The Piece 'PawnB6', has been created.
+	[SetUp] qdU5Pa: The Piece 'PawnB5', has been created.
+	[SetUp] M1Ax2o: The Piece 'PawnB4', has been created.
+	[SetUp] FafaEk: The Piece 'PawnB3', has been created.
+	[SetUp] Fnkwo9: The Piece 'PawnB2', has been created.
+	[SetUp] mKUTCq: The Piece 'PawnB1', has been created.
+	[SetUp] NGHi5r: The Piece 'PawnW8', has been created.
+	[SetUp] w4xAmL: The Piece 'PawnW7', has been created.
+	[SetUp] QQ4WOy: The Piece 'PawnW6', has been created.
+	[SetUp] aFvfed: The Piece 'PawnW5', has been created.
+	[SetUp] 2w9kwf: The Piece 'PawnW4', has been created.
+	[SetUp] ruyrw9: The Piece 'PawnW3', has been created.
+	[SetUp] 5v1Dve: The Piece 'PawnW2', has been created.
+	[SetUp] qa7hxo: The Piece 'PawnW1', has been created.
+	[SetUp] TDiioJ: The Square '[7, 7]', has been created.
+	[SetUp] QRUsHV: The Square '[7, 6]', has been created.
+	[SetUp] sw36PE: The Square '[7, 5]', has been created.
+	[SetUp] QHb1jH: The Square '[7, 4]', has been created.
+	[SetUp] ZcmlUE: The Square '[7, 3]', has been created.
+	[SetUp] f5YfNl: The Square '[7, 2]', has been created.
+	[SetUp] pAYYGb: The Square '[7, 1]', has been created.
+	[SetUp] BH5NNW: The Square '[7, 0]', has been created.
+	[SetUp] Z3EG3f: The Square '[6, 7]', has been created.
+	[SetUp] msLvuA: The Square '[6, 6]', has been created.
+	[SetUp] VaWdcC: The Square '[6, 5]', has been created.
+	[SetUp] GB417r: The Square '[6, 4]', has been created.
+	[SetUp] TJtqiG: The Square '[6, 3]', has been created.
+	[SetUp] 5w1sad: The Square '[6, 2]', has been created.
+	[SetUp] K37c1w: The Square '[6, 1]', has been created.
+	[SetUp] KHU9Tt: The Square '[6, 0]', has been created.
+	[SetUp] 4DUVHt: The Square '[5, 7]', has been created.
+	[SetUp] xr9ub8: The Square '[5, 6]', has been created.
+	[SetUp] a9danT: The Square '[5, 5]', has been created.
+	[SetUp] OOp5J5: The Square '[5, 4]', has been created.
+	[SetUp] BmxXQ5: The Square '[5, 3]', has been created.
+	[SetUp] uP9ml9: The Square '[5, 2]', has been created.
+	[SetUp] JnqLY8: The Square '[5, 1]', has been created.
+	[SetUp] xs9rxD: The Square '[5, 0]', has been created.
+	[SetUp] DiUAwl: The Square '[4, 7]', has been created.
+	[SetUp] 5GP1Yc: The Square '[4, 6]', has been created.
+	[SetUp] kYJGbC: The Square '[4, 5]', has been created.
+	[SetUp] 4oE9G9: The Square '[4, 4]', has been created.
+	[SetUp] gIQ3uJ: The Square '[4, 3]', has been created.
+	[SetUp] SgKc1G: The Square '[4, 2]', has been created.
+	[SetUp] axvcyV: The Square '[4, 1]', has been created.
+	[SetUp] oK2WiM: The Square '[4, 0]', has been created.
+	[SetUp] QYM8lQ: The Square '[3, 7]', has been created.
+	[SetUp] FOsj2M: The Square '[3, 6]', has been created.
+	[SetUp] TBBnAU: The Square '[3, 5]', has been created.
+	[SetUp] FJftQb: The Square '[3, 4]', has been created.
+	[SetUp] c1kUVD: The Square '[3, 3]', has been created.
+	[SetUp] GJDcyV: The Square '[3, 2]', has been created.
+	[SetUp] phoQ5R: The Square '[3, 1]', has been created.
+	[SetUp] SIDyvb: The Square '[3, 0]', has been created.
+	[SetUp] Hxasu1: The Square '[2, 7]', has been created.
+	[SetUp] Z5xfkI: The Square '[2, 6]', has been created.
+	[SetUp] PgvT36: The Square '[2, 5]', has been created.
+	[SetUp] lppKhV: The Square '[2, 4]', has been created.
+	[SetUp] NxMkHx: The Square '[2, 3]', has been created.
+	[SetUp] qs8hmw: The Square '[2, 2]', has been created.
+	[SetUp] RlH7nC: The Square '[2, 1]', has been created.
+	[SetUp] iBuhGK: The Square '[2, 0]', has been created.
+	[SetUp] 7T4qnA: The Square '[1, 7]', has been created.
+	[SetUp] fMOIRW: The Square '[1, 6]', has been created.
+	[SetUp] q5dw7o: The Square '[1, 5]', has been created.
+	[SetUp] wxJDdd: The Square '[1, 4]', has been created.
+	[SetUp] NxVUDF: The Square '[1, 3]', has been created.
+	[SetUp] ogs1YL: The Square '[1, 2]', has been created.
+	[SetUp] qxdUGt: The Square '[1, 1]', has been created.
+	[SetUp] iZkOnQ: The Square '[1, 0]', has been created.
+	[SetUp] 2oRAxv: The Square '[0, 7]', has been created.
+	[SetUp] uhMl29: The Square '[0, 6]', has been created.
+	[SetUp] WNS18r: The Square '[0, 5]', has been created.
+	[SetUp] bGJlE8: The Square '[0, 4]', has been created.
+	[SetUp] a1Ji33: The Square '[0, 3]', has been created.
+	[SetUp] h2JucB: The Square '[0, 2]', has been created.
+	[SetUp] BDWNMI: The Square '[0, 1]', has been created.
+	[SetUp] U4nty4: The Square '[0, 0]', has been created.
+	[SetUp] eWFJyl: The Shape 'King', has been registered.
+	[SetUp] Ff8C3J: The Shape 'Queen', has been registered.
+	[SetUp] L7NWCy: The Shape 'Rook', has been registered.
+	[SetUp] TBBySo: The Shape 'Bishop', has been registered.
+	[SetUp] skF6qF: The Shape 'Knight', has been registered.
+	[SetUp] 853dbX: The Shape 'Pawn', has been registered.
+	[SetUp] ZsAnkM: The Root '<General>', has been Found.
+	[SetUp] TrhBHa: The Root 'BoardSize>', has been Found.
+	[SetUp] BdF5hE: The Root 'BoardGap>', has been Found.
+	[SetUp] V9T6R8: The Root 'ScreenSize>', has been Found.
+	[SetUp] gDKSA8: The Root 'ColourSubShape>', has been Found.
+	[SetUp] PKG8gT: The Root 'ColourPieces>', has been Found.
+	[SetUp] hgEnxf: The Root 'ColourSquares>', has been Found.
+	[SetUp] mMF2TC: The Root 'ColourBg>', has been Found.
+	[SetUp] Ix6aZV: The Root '<Pieces>', has been Found.
+	[SetUp] DethiM: The Root 'KingB1>', has been Found.
+	[SetUp] FGaAMB: The Root 'KingW1>', has been Found.
+	[SetUp] nY9vjF: The Root 'QueenB1>', has been Found.
+	[SetUp] FJD9tb: The Root 'QueenW1>', has been Found.
+	[SetUp] np3Cvl: The Root 'RookB2>', has been Found.
+	[SetUp] XNNbAo: The Root 'RookB1>', has been Found.
+	[SetUp] 7oxAN5: The Root 'RookW2>', has been Found.
+	[SetUp] 2w2nIT: The Root 'RookW1>', has been Found.
+	[SetUp] GK9wbu: The Root 'BishopB2>', has been Found.
+	[SetUp] reEkKg: The Root 'BishopB1>', has been Found.
+	[SetUp] XRDLAs: The Root 'BishopW2>', has been Found.
+	[SetUp] 5MN2sk: The Root 'BishopW1>', has been Found.
+	[SetUp] aBmsVA: The Root 'KnightB2>', has been Found.
+	[SetUp] lOF5v2: The Root 'KnightB1>', has been Found.
+	[SetUp] ZEBQgN: The Root 'KnightW2>', has been Found.
+	[SetUp] 5nJ1s1: The Root 'KnightW1>', has been Found.
+	[SetUp] cPBoRg: The Root 'PawnB8>', has been Found.
+	[SetUp] 1DdS8W: The Root 'PawnB7>', has been Found.
+	[SetUp] 4v5lTQ: The Root 'PawnB6>', has been Found.
+	[SetUp] ZJUAPn: The Root 'PawnB5>', has been Found.
+	[SetUp] hfe4R7: The Root 'PawnB4>', has been Found.
+	[SetUp] B6bJAg: The Root 'PawnB3>', has been Found.
+	[SetUp] rvl8fy: The Root 'PawnB2>', has been Found.
+	[SetUp] kbUU5x: The Root 'PawnB1>', has been Found.
+	[SetUp] QY3jGL: The Root 'PawnW8>', has been Found.
+	[SetUp] 6ZiLoP: The Root 'PawnW7>', has been Found.
+	[SetUp] 9LNP8O: The Root 'PawnW6>', has been Found.
+	[SetUp] GNAxPS: The Root 'PawnW5>', has been Found.
+	[SetUp] WiEr6H: The Root 'PawnW4>', has been Found.
+	[SetUp] 7Gcaj7: The Root 'PawnW3>', has been Found.
+	[SetUp] PxXX8h: The Root 'PawnW2>', has been Found.
+	[SetUp] GFnYOP: The Root 'PawnW1>', has been Found.
+	[SetUp] KBhxGn: The Root '<CompoundShapes>', has been Found.
+	[SetUp] ex2TNj: The Root 'King>', has been Found.
+	[SetUp] OYiHuN: The Root 'Queen>', has been Found.
+	[SetUp] Of9Y3E: The Root 'Rook>', has been Found.
+	[SetUp] h41tS5: The Root 'Bishop>', has been Found.
+	[SetUp] 33acSU: The Root 'Knight>', has been Found.
+	[SetUp] xyFixe: The Root 'Pawn>', has been Found.
+Errors:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

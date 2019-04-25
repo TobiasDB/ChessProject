@@ -1,0 +1,212 @@
+<General>
+	ColourBg>
+		info: gray
+	ColourSquares>
+		info: white
+		info: black
+		info: White[0] Black[1]
+	ColourPieces>
+		info: white
+		info: black
+		info: White[0] Black[1]
+	ColourSubShape>
+		info: orange
+	ScreenSize>
+		info: 1
+		info: 1
+	BoardGap>
+		info: 0.8
+	BoardSize>
+		info: 40
+<CompoundShapes>
+	info: This is a list of all the shapes that will be registered to the window
+	Pawn>
+		poly: {[0.9,0.7],[0.9,-0.7],[0.5,-0.7],[0.5,-0.3],[0,-0.3],[0,-0.5],[-0.6,0],[0,0.5],[0,0.3],[0.5,0.3],[0.5,0.7]} :Main
+		poly: {[-0.1,0.3],[-0.45,0],[-0.1,-0.3],[-0.1,-0.2],[0.6,-0.2],[0.6,-0.6],[0.8,-0.6],[0.8,0.6],[0.6,0.6],[0.6,0.2],[-0.1,0.2]} :Sub
+		poly: {[0,0.1],[-0.35,0],[0,-0.1],[0,-0.1],[0.7,-0.1],[0.7,-0.5],[0.8,-0.5],[0.8,0.5],[0.7,0.5],[0.7,0.1],[0,0.1]} :Main
+	Knight>
+		poly: {[0.5,0.3],[0.5,0.7],[0.9,0.7],[0.9,-0.7],[0.5,-0.7],[0.5,-0.3],[-0.6,-0.7],[-0.6,0.7]} :Main
+		poly: {[0.6,-0.2],[0.6,-0.6],[0.8,-0.6],[0.8,0.6],[0.6,0.6],[0.6,0.2],[-0.5,0.5],[-0.5,-0.5]} :Sub
+		poly: {[0.7,-0.1],[0.7,-0.5],[0.8,-0.5],[0.8,0.5],[0.7,0.5],[0.7,0.1],[-0.4,0.3],[-0.4,-0.3]} :Main
+	Bishop>
+		poly: {[0.5,0.3],[0.5,0.7],[0.9,0.7],[0.9,-0.7],[0.5,-0.7],[0.5,-0.3],[-0.9,0]} :Main
+		poly: {[0.6,-0.2],[0.6,-0.6],[0.8,-0.6],[0.8,0.6],[0.6,0.6],[0.6,0.2],[-0.7,0]} :Sub
+		poly: {[0.7,-0.1],[0.7,-0.5],[0.8,-0.5],[0.8,0.5],[0.7,0.5],[0.7,0.1],[-0.5,0]} :Main
+	Rook>
+		poly: {[0.5,0.5],[0.5,0.7],[0.9,0.7],[0.9,-0.7],[0.5,-0.7],[0.5,-0.5],[-0.7,-0.5],[-0.7,0.5]} :Main
+		poly: {[0.6,-0.4],[0.6,-0.6],[0.8,-0.6],[0.8,0.6],[0.6,0.6],[0.6,0.4],[-0.6,0.4],[-0.6,-0.4]} :Sub
+		poly: {[0.7,-0.3],[0.7,-0.5],[0.8,-0.5],[0.8,0.5],[0.7,0.5],[0.7,0.3],[-0.5,0.3],[-0.5,-0.3]} :Main
+		poly: {[0.3,0.2],[-0.2,0.2],[-0.2,-0.2],[0.3,-0.2]} :Sub
+	Queen>
+		poly: {[0.9,0.7],[0.5,0.7],[-0.2,0.45],[0.5,0.3],[-0.9,0],[0.5,-0.3],[-0.2,-0.45],[0.5,-0.7],[0.9,-0.7]} :Main
+		poly: {[0.6,-0.6],[0.8,-0.6],[0.8,0.6],[0.6,0.6],[0,0.45],[0.6,0.2],[-0.7,0],[0.6,-0.2],[0,-0.45]} :Sub
+		poly: {[0.7,-0.5],[0.8,-0.5],[0.8,0.5],[0.7,0.5],[0.2,0.45],[0.7,0.2],[-0.3,0],[0.7,-0.2],[0.2,-0.45]} :Main
+	King>
+		poly: {[0.9,0.7],[0.5,0.7],[-0.2,0.7],[-0.2,0.45],[0.5,0.3],[-0.9,0],[0.5,-0.3],[-0.2,-0.45],[-0.2,-0.7],[0.5,-0.7],[0.9,-0.7]} :Main
+		poly: {[0.6,-0.6],[0.8,-0.6],[0.8,0.6],[0.6,0.6],[0,0.6],[0,0.45],[0.6,0.2],[-0.7,0],[0.6,-0.2],[0,-0.45],[0,-0.6]} :Sub
+		poly: {[0.7,-0.5],[0.8,-0.5],[0.8,0.5],[0.7,0.5],[0.2,0.5],[0.2,0.45],[0.7,0.2],[-0.3,0],[0.7,-0.2],[0.2,-0.45],[0.2,-0.5]} :Main
+<Pieces>
+	info: List of pieces that will be generated
+	info : movePM is the moves that it can do [x,y,condition] condition: [0, Normal], [1, Until Blocked] [2, Only if enemy is present], [3, First Move] 
+	PawnW1>
+		shapes: Pawn
+		colour: white
+		square: 01
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnW2>
+		shapes: Pawn
+		colour: white
+		square: 11
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnW3>
+		shapes: Pawn
+		colour: white
+		square: 21
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnW4>
+		shapes: Pawn
+		colour: white
+		square: 31
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnW5>
+		shapes: Pawn
+		colour: white
+		square: 41
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnW6>
+		shapes: Pawn
+		colour: white
+		square: 51
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnW7>
+		shapes: Pawn
+		colour: white
+		square: 61
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnW8>
+		shapes: Pawn
+		colour: white
+		square: 71
+		movePM: {[0,1,0],[0,2,3],[-1,1,2],[1,1,2]}
+	PawnB1>
+		shapes: Pawn
+		colour: black
+		square: 06
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	PawnB2>
+		shapes: Pawn
+		colour: black
+		square: 16
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	PawnB3>
+		shapes: Pawn
+		colour: black
+		square: 26
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	PawnB4>
+		shapes: Pawn
+		colour: black
+		square: 36
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	PawnB5>
+		shapes: Pawn
+		colour: black
+		square: 46
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	PawnB6>
+		shapes: Pawn
+		colour: black
+		square: 56
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	PawnB7>
+		shapes: Pawn
+		colour: black
+		square: 66
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	PawnB8>
+		shapes: Pawn
+		colour: black
+		square: 76
+		movePM: {[0,-1,0],[0,-2,3],[-1,-1,2],[1,-1,2]}
+	KnightW1>
+		shapes: Knight
+		colour: white
+		square: 10
+		movePM: {[2,1,0],[2,-1,0],[1,2,0],[1,-2,0],[-2,1,0],[-2,-1,0],[-1,2,0],[-1,-2,0]}
+	KnightW2>
+		shapes: Knight
+		colour: white
+		square: 60
+		movePM: {[2,1,0],[2,-1,0],[1,2,0],[1,-2,0],[-2,1,0],[-2,-1,0],[-1,2,0],[-1,-2,0]}
+	KnightB1>
+		shapes: Knight
+		colour: black
+		square: 17
+		movePM: {[2,1,0],[2,-1,0],[1,2,0],[1,-2,0],[-2,1,0],[-2,-1,0],[-1,2,0],[-1,-2,0]}
+	KnightB2>
+		shapes: Knight
+		colour: black
+		square: 67
+		movePM: {[2,1,0],[2,-1,0],[1,2,0],[1,-2,0],[-2,1,0],[-2,-1,0],[-1,2,0],[-1,-2,0]}
+	BishopW1>
+		shapes: Bishop
+		colour: white
+		square: 20
+		movePM: {[1,1,1],[1,-1,1],[-1,1,1],[-1,-1,1]}
+	BishopW2>
+		shapes: Bishop
+		colour: white
+		square: 50
+		movePM: {[1,1,1],[1,-1,1],[-1,1,1],[-1,-1,1]}
+	BishopB1>
+		shapes: Bishop
+		colour: black
+		square: 27
+		movePM: {[1,1,1],[1,-1,1],[-1,1,1],[-1,-1,1]}
+	BishopB2>
+		shapes: Bishop
+		colour: black
+		square: 57
+		movePM: {[1,1,1],[1,-1,1],[-1,1,1],[-1,-1,1]}
+	RookW1>
+		shapes: Rook
+		colour: white
+		square: 00
+		movePM: {[1,0,1],[0,1,1],[-1,0,1],[0,-1,1]}
+	RookW2>
+		shapes: Rook
+		colour: white
+		square: 70
+		movePM: {[1,0,1],[0,1,1],[-1,0,1],[0,-1,1]}
+	RookB1>
+		shapes: Rook
+		colour: black
+		square: 07
+		movePM: {[1,0,1],[0,1,1],[-1,0,1],[0,-1,1]}
+	RookB2>
+		shapes: Rook
+		colour: black
+		square: 77
+		movePM: {[1,0,1],[0,1,1],[-1,0,1],[0,-1,1]}
+	QueenW1>
+		shapes: Queen
+		colour: white
+		square: 40
+		movePM: {[1,0,1],[0,1,1],[-1,0,1],[0,-1,1],[1,1,1],[1,-1,1],[-1,1,1],[-1,-1,1]}
+	QueenB1>
+		shapes: Queen
+		colour: black
+		square: 47
+		movePM: {[1,0,1],[0,1,1],[-1,0,1],[0,-1,1],[1,1,1],[1,-1,1],[-1,1,1],[-1,-1,1]}
+	KingW1>
+		shapes: King
+		colour: white
+		square: 30
+		movePM: {[1,0,0],[0,1,0],[-1,0,0],[0,-1,0],[1,1,0],[1,-1,0],[-1,1,0],[-1,-1,0]}
+	KingB1>
+		shapes: King
+		colour: black
+		square: 37
+		movePM: {[1,0,0],[0,1,0],[-1,0,0],[0,-1,0],[1,1,0],[1,-1,0],[-1,1,0],[-1,-1,0]}
+<Moves>
+	poly:
